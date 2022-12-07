@@ -15,7 +15,6 @@ Written in VS Code and hosted by Netlify
 ## Optimizations
 
 More work in cross-browser optimisation. Design works as intended on Chrome but not Firefox. Other browsers haven't been used.
-ntation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
 
 ## Lessons Learned:
 Very fun project - amazing to get data back from NASA!

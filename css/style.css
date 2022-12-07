@@ -1,0 +1,100 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* STAR BACKGROUND
+/*******************************************/
+body{
+  background-color: #000;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+
+.main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  width: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: -24vw -44vh 2px 2px #fff,38vw -4vh 0px 0px #fff,-20vw -48vh 1px 2px #fff,-39vw 38vh 3px 1px #fff,-42vw -11vh 0px 3px #fff,12vw 15vh 3px 3px #fff,42vw 6vh 3px 2px #fff,-8vw 9vh 0px 2px #fff,34vw -38vh 1px 0px #fff,-17vw 45vh 3px 1px #fff,22vw -36vh 3px 2px #fff,-42vw 1vh 1px 0px #fff,50vw -32vh 2px 1px #fff,-17vw 10vh 0px 1px #fff,-15vw -40vh 3px 1px #fff,-1vw -50vh 0px 3px #fff,-45vw -1vh 0px 0px #fff,-45vw 19vh 3px 2px #fff,21vw 17vh 2px 0px #fff,44vw 33vh 3px 2px #fff,-3vw -31vh 1px 2px #fff,26vw 10vh 3px 2px #fff,14vw 18vh 2px 1px #fff,23vw -18vh 3px 1px #fff,-38vw 3vh 2px 1px #fff,-33vw 15vh 0px 3px #fff,31vw 6vh 3px 2px #fff,-15vw -7vh 3px 1px #fff,-7vw 49vh 2px 0px #fff,-1vw -5vh 3px 3px #fff,50vw 25vh 2px 0px #fff,-25vw -50vh 1px 2px #fff,-29vw -11vh 2px 0px #fff,-11vw -29vh 2px 3px #fff,-11vw -18vh 0px 0px #fff,-25vw 44vh 3px 0px #fff,23vw -27vh 2px 2px #fff,23vw -47vh 0px 1px #fff,-8vw 18vh 1px 0px #fff,14vw 26vh 2px 0px #fff,-42vw 41vh 1px 3px #fff,3vw 37vh 2px 3px #fff,42vw 44vh 3px 2px #fff,-12vw -11vh 1px 0px #fff,-1vw 23vh 2px 2px #fff,34vw 25vh 0px 3px #fff,15vw -9vh 3px 1px #fff,-3vw 42vh 3px 3px #fff,-11vw -2vh 0px 3px #fff,-13vw -34vh 1px 2px #fff,48vw 23vh 3px 3px #fff,-38vw -13vh 3px 3px #fff,-4vw 28vh 3px 1px #fff,23vw -27vh 2px 3px #fff,-7vw 49vh 2px 3px #fff,-29vw -46vh 0px 2px #fff,-26vw -46vh 1px 0px #fff,-44vw 15vh 0px 3px #fff,-17vw -50vh 2px 3px #fff,8vw 1vh 3px 2px #fff,-1vw 19vh 2px 1px #fff,-50vw -16vh 3px 1px #fff,27vw -35vh 3px 1px #fff,23vw -38vh 3px 1px #fff,-19vw 28vh 1px 0px #fff,9vw 29vh 0px 2px #fff,-30vw -43vh 2px 3px #fff,30vw 32vh 3px 1px #fff,-18vw 21vh 2px 1px #fff,35vw -29vh 0px 0px #fff,28vw 34vh 0px 0px #fff,39vw -21vh 1px 3px #fff,35vw 25vh 2px 2px #fff,20vw -41vh 2px 2px #fff,24vw -12vh 0px 1px #fff,12vw -21vh 1px 1px #fff,-43vw 46vh 1px 0px #fff,-44vw 37vh 2px 0px #fff,47vw 42vh 1px 0px #fff,35vw 16vh 0px 2px #fff,19vw 31vh 1px 0px #fff,-15vw -6vh 1px 0px #fff,12vw 19vh 2px 1px #fff,23vw -46vh 0px 1px #fff,-18vw 31vh 0px 1px #fff,11vw 17vh 3px 0px #fff,22vw 35vh 3px 3px #fff,-17vw -10vh 0px 0px #fff,-7vw -40vh 0px 3px #fff,-3vw 31vh 1px 0px #fff,-16vw -33vh 0px 3px #fff,28vw 42vh 1px 0px #fff,29vw -13vh 2px 2px #fff,-11vw -32vh 0px 3px #fff,-1vw 34vh 2px 1px #fff,-5vw 9vh 3px 2px #fff,22vw 24vh 3px 1px #fff,12vw 45vh 3px 1px #fff,-46vw -7vh 0px 2px #fff,-23vw 40vh 2px 0px #fff,34vw -27vh 2px 3px #fff,-30vw 1vh 2px 3px #fff,29vw 12vh 2px 0px #fff,-50vw -49vh 0px 2px #fff,45vw -29vh 3px 2px #fff,23vw 29vh 3px 1px #fff,-35vw -41vh 2px 0px #fff,-12vw 11vh 0px 0px #fff,-12vw 39vh 2px 2px #fff,-14vw 18vh 2px 2px #fff,-35vw 28vh 2px 2px #fff,-23vw 25vh 3px 3px #fff,-18vw 34vh 3px 0px #fff,-6vw 10vh 1px 2px #fff,44vw -20vh 1px 0px #fff,36vw 23vh 2px 0px #fff,33vw 49vh 3px 3px #fff,-43vw 4vh 2px 0px #fff,28vw -5vh 0px 1px #fff,46vw -49vh 1px 3px #fff,-2vw 28vh 1px 2px #fff,-38vw -32vh 3px 0px #fff,20vw 7vh 0px 2px #fff,39vw 20vh 0px 1px #fff,-49vw -45vh 0px 1px #fff,31vw -25vh 0px 1px #fff,10vw -11vh 1px 0px #fff,13vw -32vh 1px 0px #fff,25vw -44vh 2px 2px #fff,-47vw -42vh 3px 2px #fff,17vw -27vh 0px 3px #fff,-31vw 3vh 1px 0px #fff,-40vw -9vh 2px 3px #fff,32vw 25vh 3px 0px #fff,39vw -27vh 3px 3px #fff,-15vw -21vh 0px 2px #fff,-42vw 33vh 3px 0px #fff,-35vw -43vh 1px 3px #fff,-20vw -36vh 0px 2px #fff,-11vw -35vh 3px 2px #fff,-17vw 12vh 1px 3px #fff,17vw 45vh 3px 1px #fff,1vw -24vh 2px 1px #fff,34vw 0vh 3px 3px #fff,-13vw 41vh 0px 1px #fff,40vw -7vh 3px 3px #fff,-33vw -49vh 2px 1px #fff,-32vw 49vh 2px 0px #fff,-33vw 21vh 2px 1px #fff,20vw -44vh 3px 2px #fff,42vw -38vh 0px 2px #fff,-12vw 12vh 1px 2px #fff,12vw -10vh 0px 0px #fff,42vw 26vh 1px 1px #fff,18vw -9vh 3px 1px #fff,-40vw 12vh 1px 1px #fff,-41vw -17vh 0px 2px #fff,49vw -35vh 0px 0px #fff,15vw 6vh 3px 0px #fff,-38vw -29vh 2px 3px #fff,33vw 28vh 3px 0px #fff,17vw 48vh 0px 0px #fff,15vw -37vh 3px 3px #fff,27vw -15vh 1px 1px #fff,-12vw -4vh 0px 3px #fff,21vw 5vh 0px 0px #fff,-5vw -1vh 3px 2px #fff,26vw 16vh 1px 3px #fff,46vw -16vh 2px 2px #fff,33vw 13vh 1px 3px #fff,44vw 44vh 1px 1px #fff,8vw -49vh 3px 2px #fff,9vw 23vh 2px 2px #fff,27vw 23vh 1px 0px #fff,-1vw -15vh 0px 1px #fff,46vw 10vh 3px 2px #fff,41vw 41vh 2px 1px #fff,20vw 1vh 2px 0px #fff,-1vw -5vh 2px 3px #fff,-22vw 32vh 0px 0px #fff,-15vw -45vh 2px 3px #fff,-23vw -23vh 1px 0px #fff,-28vw 14vh 3px 2px #fff,1vw -5vh 3px 2px #fff,-2vw 20vh 3px 0px #fff,-28vw -29vh 3px 2px #fff,-4vw -24vh 2px 0px #fff,-29vw 2vh 0px 0px #fff,6vw 42vh 3px 2px #fff,35vw 37vh 1px 2px #fff,-49vw 4vh 2px 2px #fff,12vw 25vh 1px 3px #fff,-43vw -28vh 2px 3px #fff,3vw -39vh 1px 1px #fff,-28vw -49vh 2px 1px #fff,-35vw -30vh 3px 2px #fff,43vw 22vh 3px 3px #fff,6vw 8vh 2px 0px #fff,4vw -41vh 0px 3px #fff,-36vw -19vh 2px 3px #fff,-41vw 9vh 2px 2px #fff,-31vw -9vh 3px 1px #fff,-5vw -38vh 2px 1px #fff,11vw 4vh 3px 2px #fff,0vw 32vh 2px 2px #fff,14vw 44vh 0px 2px #fff,-36vw 39vh 3px 2px #fff,-42vw -33vh 3px 1px #fff,15vw 6vh 0px 2px #fff,0vw 18vh 1px 1px #fff,32vw 22vh 1px 1px #fff,-7vw -5vh 1px 2px #fff;
+  animation: zoom 15s alternate infinite;
+}
+
+@keyframes zoom {
+  0%{
+      transform: scale(1);
+  }
+  100%{
+      transform: scale(1.5);
+  }
+}
+/******************************************
+/* 
+/*******************************************/
+h3 {
+  margin: 0 auto;
+  padding: 25px;
+  z-index: 9999;
+  font-weight: 400;
+}
+
+img{
+  width: 50%;
+  max-width: 100%;
+  z-index: 9999;
+}
+
+iframe {
+  height: 300px;
+  width: 700px;
+  padding: 50px;
+  z-index: 9999;
+  max-width: 100%;
+}
+
+section {
+  padding: 50px;
+  width: 100%;
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+}
+
+@media (max-width: 1400px) {
+  section {
+    display: flex;
+    z-index: 9999;
+  }
+  img {
+    width: 50%;
+    max-width: 100%;
+    z-index: 9999;
+  }
+  iframe {
+    width: 50%;
+    max-width: 100%;
+    z-index: 9999;
+  }
+}
+
+/******************************************
+/* TOGGLE HIDDEN
+/*******************************************/
+.hidden {
+  display: none;
+}
+
+
+

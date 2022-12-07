@@ -3,9 +3,7 @@ Select a date and view an OFFICIAL NASA PICTURE taken that day!
 
 **Link to project:** https://aus-stargazers.netlify.app/
 
-<p align="center">
-    <img src="/Aus-StarGazers/AusStarGazersGif.gif" alt="animation"/>
-</p>
+![](/AusStarGazersGif.gif)
 
 ## How It's Made:
 

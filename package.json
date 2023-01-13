@@ -1,0 +1,23 @@
+{
+  "name": "ausstargazers",
+  "version": "1.0.0",
+  "description": "Select a date and view an OFFICIAL NASA PICTURE taken that day!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teejcoder/aus-stargazers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teejcoder/aus-stargazers/issues"
+  },
+  "homepage": "https://github.com/teejcoder/aus-stargazers#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
